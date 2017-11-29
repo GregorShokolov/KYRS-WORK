@@ -3,10 +3,7 @@
 using namespace std;
 
 int main(){
-int a;
-int b;
-int c;
-int y;
+int a,b,c,y;
 double S=0;
 	if (a < 0 || b < 0 || c < 0 || y < 0 || y > 180)
 	{
