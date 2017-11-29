@@ -20,11 +20,21 @@ double S=0;
 	cin >> c;
 	cout << "Ygol=  ";
 	cin >> y;
- if (a==b,c==0)
+ if (a==b&&c==0&&y!=90)
 	{
-	S=(pow(a,2)*sin(y*M_PI/180)/2);
+ 	 S=(pow(a,2)*sin(y*M_PI/180)/2);
+	 cout<<"1"<<endl;
 	}
-	
+ if (a!=b&&c==0&&y!=90)
+   { 
+    S=((a*b)/2*sin(y*M_PI/180));
+    cout<<"2"<<endl;
+   }
+ if (y==90&&a!=b)
+   {
+    S=(a*b)/2;
+    cout<<"3"<<endl;	
+   }
 	cout<<"Площадь треугольника= "<<S<<endl;
 	return 0;
 
