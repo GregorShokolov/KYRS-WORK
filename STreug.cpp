@@ -18,6 +18,6 @@ STreug(int a, int b, int y)
     return 0;
 }
 main(){
-	std::cout<< "a=20, b=25, y=90 \n";
-	STreug(20,25,90);
+	std::cout<< "a=10, b=15, y=60 \n";
+	STreug(10,15,60);
 }
