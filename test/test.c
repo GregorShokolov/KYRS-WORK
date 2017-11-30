@@ -2,6 +2,7 @@
 #include <math.h>
 #include <STreug.h>
 
+<<<<<<< HEAD
 CTEST(vvod, data_1)
 {
 	
@@ -132,6 +133,9 @@ CTEST(vvod, data_8)
 }
 
 CTEST(S_test, data_1)
+=======
+CTEST(test, data_1)
+>>>>>>> bc30ad693477c994bb9b4b8293d19db76050d40a
 {
 	
     // Given
@@ -145,10 +149,17 @@ CTEST(S_test, data_1)
 
     // Then
     const double exp = 64.9519;
+<<<<<<< HEAD
     ASSERT_DBL_NEAR(exp, S);
 }
 
 CTEST(S_test, data_2)
+=======
+    ASSERT_EQUAL(exp, S);
+}
+
+CTEST(test, data_2)
+>>>>>>> bc30ad693477c994bb9b4b8293d19db76050d40a
 {
     // Given
     const float a = 1;
@@ -160,6 +171,7 @@ CTEST(S_test, data_2)
 	
     // Then
     const float exp = 1.25;
+<<<<<<< HEAD
     ASSERT_DBL_NEAR(exp, S);
 }
 
@@ -238,3 +250,10 @@ CTEST(S_test, data_7)
     const float exp = 34.90481;
     ASSERT_DBL_NEAR(exp, S);
 }
+=======
+    ASSERT_EQUAL(exp, S);
+}
+
+
+
+>>>>>>> bc30ad693477c994bb9b4b8293d19db76050d40a

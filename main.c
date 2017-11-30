@@ -1,8 +1,13 @@
+<<<<<<< HEAD
 #include <stdio.h>
+=======
+#include <iostream>
+>>>>>>> bc30ad693477c994bb9b4b8293d19db76050d40a
 #include <math.h>
 #include "STreug.h"
 
 
+<<<<<<< HEAD
 int main(){
     float a, b, y;
     double S;
@@ -24,4 +29,9 @@ int main(){
     while(1);
     printf("S = %f", S);
     return 1;
+=======
+main(){
+	std::cout<< "a=10, b=15, y=60 \n";
+	STreug(10,15,60);
+>>>>>>> bc30ad693477c994bb9b4b8293d19db76050d40a
 }
