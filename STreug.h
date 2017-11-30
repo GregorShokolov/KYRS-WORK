@@ -1,16 +1,16 @@
-#include <iostream>
-#include <math.h>
 
-STreug(int a, int b, int y)
+
+int st(float a, float b, float y, double *S)
 {
-   if (a<0||b<0||y<0||y>180){
-   	std::cout << "Eror" << std::endl;
+	
+   if (a <= 0 || b <= 0|| y <= 0 || y >= 180){
+		return -1;
    }
 
    
     
-    double S = a*b*sin(y*M_PI/180)/2;
-    std::cout << S << std::endl;    
+    *S = a * b * sin(y * M_PI / 180) / 2;
+	   
  
-    return 0;
+    return 1;
 }

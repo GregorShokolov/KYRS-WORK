@@ -1,7 +1,7 @@
 //Площадь треугольника
 #include <iostream>
 #include <math.h>
-#include <STreug.h> 
+#include "STreug.h" 
 
     
 
