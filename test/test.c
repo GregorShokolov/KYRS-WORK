@@ -132,9 +132,6 @@ CTEST(vvod, data_8)
 }
 
 CTEST(S_test, data_1)
-
-CTEST(test, data_1)
-
 {
 	
     // Given
@@ -148,18 +145,10 @@ CTEST(test, data_1)
 
     // Then
     const double exp = 64.9519;
-
     ASSERT_DBL_NEAR(exp, S);
 }
 
-CTEST(S_test, data_2) {
-
-
-    ASSERT_EQUAL(exp, S);
-}
-
-CTEST(test, data_2)
-
+CTEST(S_test, data_2)
 {
     // Given
     const float a = 1;
@@ -248,11 +237,4 @@ CTEST(S_test, data_7)
     // Then
     const float exp = 34.90481;
     ASSERT_DBL_NEAR(exp, S);
-
-
-    ASSERT_EQUAL(exp, S);
 }
-
-
-
-
