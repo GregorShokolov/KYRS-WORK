@@ -247,7 +247,7 @@ CTEST(S_test, data_7)
     // Then
     const float exp = 34.90481;
     ASSERT_DBL_NEAR(exp, S);
-}
+
 
     ASSERT_EQUAL(exp, S);
 }
