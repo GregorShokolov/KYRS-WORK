@@ -152,7 +152,8 @@ CTEST(test, data_1)
     ASSERT_DBL_NEAR(exp, S);
 }
 
-CTEST(S_test, data_2)
+CTEST(S_test, data_2) {
+
 
     ASSERT_EQUAL(exp, S);
 }
