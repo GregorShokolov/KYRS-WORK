@@ -131,9 +131,8 @@ CTEST(vvod, data_8)
     ASSERT_EQUAL(expected, result);
 }
 
-CTEST(S_test, data_1)
 
-CTEST(test, data_1)
+CTEST(test, data_9)
 
 {
 	
@@ -152,13 +151,8 @@ CTEST(test, data_1)
     ASSERT_DBL_NEAR(exp, S);
 }
 
-CTEST(S_test, data_2) {
 
-
-    ASSERT_EQUAL(exp, S);
-}
-
-CTEST(test, data_2)
+CTEST(test, data_10)
 
 {
     // Given
@@ -174,7 +168,7 @@ CTEST(test, data_2)
     ASSERT_DBL_NEAR(exp, S);
 }
 
-CTEST(S_test, data_3)
+CTEST(S_test, data_11)
 {
     // Given
     const float a = 30;
@@ -190,7 +184,7 @@ CTEST(S_test, data_3)
 }
 
 
-CTEST(S_test, data_4)
+CTEST(S_test, data_12)
 {
     // Given
     const float a = 80;
@@ -205,7 +199,7 @@ CTEST(S_test, data_4)
     ASSERT_DBL_NEAR(exp, S);
 }
 
-CTEST(S_test, data_5)
+CTEST(S_test, data_13)
 {
     // Given
     const float a = 0.5;
@@ -220,7 +214,7 @@ CTEST(S_test, data_5)
     ASSERT_DBL_NEAR(exp, S);
 }
 
-CTEST(S_test, data_6)
+CTEST(S_test, data_14)
 {
     // Given
     const float a = 30;
@@ -235,7 +229,7 @@ CTEST(S_test, data_6)
     ASSERT_DBL_NEAR(exp, S);
 }
 
-CTEST(S_test, data_7)
+CTEST(S_test, data_15)
 {
     // Given
     const float a = 80;
