@@ -14,8 +14,10 @@ int st(float a, float b, float y, double *S)
     *S = a * b * sin(y * M_PI / 180) / 2;
 
   
-
-	   
+   
  
     return 1;
+}
+else 
+	return -1;
 }
